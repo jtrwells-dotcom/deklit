@@ -1,0 +1,19 @@
+THESE TWO FILES MUST REPLACE THE EXISTING ONES IN THE GITHUB REPO
+=================================================================
+Repo: github.com/jtrwells-dotcom/deklit
+
+  products/xmas-abom_day.png    (709 x 814)  <- replaces the OLD 504x586 damaged file
+  products/xmas-snoopy_day.png  (438 x 900)  <- replaces the OLD 289x599 damaged file
+
+The files currently live in the repo at these paths are the OLD damaged
+versions (white bodies eaten away). These two are the correct re-cuts.
+
+After uploading:
+  - Confirm GitHub shows the new file sizes / dimensions (not the old ones)
+  - jsDelivr should pick them up within 1-2 minutes
+  - The HTML already has ASSET_VER=3 so no HTML change is needed
+  - Hard-refresh the app (Cmd+Shift+R) to clear browser cache
+
+Verify it worked by opening this URL directly in a browser -- it should
+show a CLEAN Abominable with a solid white body:
+  https://cdn.jsdelivr.net/gh/jtrwells-dotcom/deklit@main/products/xmas-abom_day.png?v=3
